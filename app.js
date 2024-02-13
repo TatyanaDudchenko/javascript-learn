@@ -46,12 +46,21 @@
 // console.log(c)
 
 // Типы данных
-const isProgrammer = true
-const name = 'Ivanov'
-const age = 26
-let x
-console.log(typeof isProgrammer)
-console.log(typeof name)
-console.log(typeof age)
-console.log(typeof x)
-console.log(typeof null)
+// const isProgrammer = true
+// const name = 'Ivanov'
+// const age = 26
+// let x
+// console.log(typeof isProgrammer)
+// console.log(typeof name)
+// console.log(typeof age)
+// console.log(typeof x)
+// console.log(typeof null)
+
+// Приоритет операторов
+const fullAge = 26
+const birthYear = 1993
+const currentYear = 2020
+
+// > < >= <=
+const isFullAge = currentYear - birthYear >= fullAge // 27>=26 => true
+console.log(isFullAge)
