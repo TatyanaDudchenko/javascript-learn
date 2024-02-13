@@ -45,7 +45,7 @@
 // console.log(--currentYear)
 // console.log(c)
 
-// Типы данных
+// 4 Типы данных
 // const isProgrammer = true
 // const name = 'Ivanov'
 // const age = 26
@@ -56,11 +56,39 @@
 // console.log(typeof x)
 // console.log(typeof null)
 
-// Приоритет операторов
-const fullAge = 26
-const birthYear = 1993
-const currentYear = 2020
+// 5 Приоритет операторов
+// const fullAge = 26
+// const birthYear = 1993
+// const currentYear = 2020
 
 // > < >= <=
-const isFullAge = currentYear - birthYear >= fullAge // 27>=26 => true
-console.log(isFullAge)
+// const isFullAge = currentYear - birthYear >= fullAge // 27>=26 => true
+// console.log(isFullAge)
+
+// 6 Условные операторы
+const courseStatus = 'fail' // ready, fail, pending
+
+if (courseStatus === 'ready') {
+    console.log('Курс уже готов и его можно проходить')
+} else if (courseStatus === 'pending') {
+    console.log('Курс пока находится в процессе разработки')
+} else {
+    console.log('Курс не получился')
+}
+
+const isReady = true
+
+// if (isReady) {
+//     console.log('Все готово!')
+// } else {
+//     console.log('Все не готово!')
+// }
+
+// Тернарное выражение
+isReady ? console.log('Все готово!') : console.log('Все не готово!')
+
+// const num1 = 42 // number
+// const num2 = '42' // string
+
+// console.log(num1 === num2)
+
