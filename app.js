@@ -94,3 +94,31 @@
 
 // 7 Булевая логика
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
+// 8 Функции
+
+function calculateAge(year) {
+    return 2024 - year
+}
+
+
+// console.log(calculateAge(1993))
+// console.log(calculateAge(2019))
+// console.log(calculateAge(1999))
+
+function logInfoAbout(name, year) {
+    const age = calculateAge(year)
+
+    if (age > 0) {
+        console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age)
+
+    } else {
+        console.log('Вообще-то это уже будущее!')
+    }
+}
+
+logInfoAbout('Иван', 1993)
+logInfoAbout('Елена', 1995)
+logInfoAbout('Иван', 2026)
+
+
