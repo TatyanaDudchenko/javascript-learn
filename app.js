@@ -66,17 +66,17 @@
 // console.log(isFullAge)
 
 // 6 Условные операторы
-const courseStatus = 'fail' // ready, fail, pending
+// const courseStatus = 'fail' // ready, fail, pending
 
-if (courseStatus === 'ready') {
-    console.log('Курс уже готов и его можно проходить')
-} else if (courseStatus === 'pending') {
-    console.log('Курс пока находится в процессе разработки')
-} else {
-    console.log('Курс не получился')
-}
+// if (courseStatus === 'ready') {
+//     console.log('Курс уже готов и его можно проходить')
+// } else if (courseStatus === 'pending') {
+//     console.log('Курс пока находится в процессе разработки')
+// } else {
+//     console.log('Курс не получился')
+// }
 
-const isReady = true
+// const isReady = true
 
 // if (isReady) {
 //     console.log('Все готово!')
@@ -85,10 +85,12 @@ const isReady = true
 // }
 
 // Тернарное выражение
-isReady ? console.log('Все готово!') : console.log('Все не готово!')
+// isReady ? console.log('Все готово!') : console.log('Все не готово!')
 
 // const num1 = 42 // number
 // const num2 = '42' // string
 
 // console.log(num1 === num2)
 
+// 7 Булевая логика
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
