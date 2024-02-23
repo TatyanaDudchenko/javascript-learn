@@ -122,14 +122,26 @@
 // logInfoAbout('Иван', 2026)
 
 // 9 Массивы
-const cars = ['Мазда','Мерседес', 'Форд']
+// const cars = ['Мазда','Мерседес', 'Форд']
 // const cars = new Array('Мазда', 'Мерседес', 'Форд')
-console.log(cars)
-console.log(cars.length)
-console.log(cars[1])
-console.log(cars[0])
-console.log(cars[2])
+// console.log(cars)
+// console.log(cars.length)
+// console.log(cars[1])
+// console.log(cars[0])
+// console.log(cars[2])
 
-cars[0] = 'Porsche'
-cars[cars.length] = 'Mazda'
-console.log(cars)
+// cars[0] = 'Porsche'
+// cars[cars.length] = 'Mazda'
+// console.log(cars)
+
+// 10 Циклы
+const cars = ['Мазда', 'Мерседес', 'Форд', 'Porsche']
+
+// for (let i = 0; i < cars.length; i++) {
+//     const car = cars[i]
+//     console.log(car)
+// }
+
+for (let car of cars) {
+    console.log(car)
+}
