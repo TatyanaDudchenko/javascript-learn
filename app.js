@@ -135,13 +135,35 @@
 // console.log(cars)
 
 // 10 Циклы
-const cars = ['Мазда', 'Мерседес', 'Форд', 'Porsche']
+// const cars = ['Мазда', 'Мерседес', 'Форд', 'Porsche']
 
 // for (let i = 0; i < cars.length; i++) {
 //     const car = cars[i]
 //     console.log(car)
 // }
 
-for (let car of cars) {
-    console.log(car)
+// for (let car of cars) {
+//     console.log(car)
+// }
+
+// 11 Объекты
+const person = {
+    firstName: 'Ivan',
+    lastName: 'Ivanov',
+    year: 1993,
+    languages: ['Ru', 'En', 'De'],
+    hasWife: false,
+    greet: function() {
+        console.log('greet from person')
+    }
 }
+
+console.log(person.firstName)
+console.log(person['lastName'])
+const key = 'year'
+console.log(person[key])
+person.hasWife = true
+person.isProgrammer = true
+console.log(person)
+
+person.greet()
