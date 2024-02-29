@@ -7,9 +7,28 @@
 <body>
     
 <h1>Hello World!</h1>
+<button type="button" id="weather">Get IP</button>
+<span id="info"></span>
 
 <!-- <script src="base.js"></script> -->
 <!-- <script src="number.js"></script> -->
 <!-- <script src="promise.js"></script> -->
+<script src="scripts.js"></script>
+<script>
+    const button = document.getElementById("weather");
+    const info = document.getElementById("info");
+    if (button) {
+        button.addEventListener("click", () => {
+            if(info) {
+                info.innerHTML = "Loading..."
+            };
+            getWeather().then(result => {
+                info.innerHTML = result.query
+            }).catch(() => {
+                info.innerHTML = "Error!"
+            })
+        });
+    };
+</script>
 </body>
 </html>
